@@ -16,7 +16,6 @@ const Layout:React.FC<Props> = ({children}) =>{
             </Header>
             <SideBar>This is sidebar</SideBar>
             <main className={classes.main}>{children}</main>
-            <Outlet />
         </div>
 
     )
