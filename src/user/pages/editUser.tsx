@@ -1,7 +1,6 @@
 const EditUser: React.FC = () => {
   return(
-    <div>Edit User page</div>
+    <div><h1>Edit a User</h1></div>
   )
-
 }
 export default EditUser;

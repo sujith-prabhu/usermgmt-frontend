@@ -2,9 +2,10 @@ import { Outlet } from "react-router-dom";
 const Users:React.FC = () =>{
   return(
     <div>
-      This is users page
+      <h1>
+        List of Users
+      </h1>
       <Outlet />
-
     </div>
   )
 }

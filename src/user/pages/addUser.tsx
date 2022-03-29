@@ -1,5 +1,5 @@
 const AddUser:React.FC = () =>{
-  return(<div>Add user page</div>)
+  return(<div><h1>Add a New User</h1></div>)
 }
 
 export default AddUser;

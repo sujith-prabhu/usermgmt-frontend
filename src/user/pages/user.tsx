@@ -1,6 +1,6 @@
 const User:React.FC = () =>{
   return(
-    <div>This is user page</div>
+    <div><h1>User info Display</h1></div>
   )
 }
 

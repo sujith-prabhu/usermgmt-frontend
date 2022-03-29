@@ -12,8 +12,8 @@ import EditUser from './user/pages/editUser';
 
 const App: React.FC =() => {
   return (
+    <BrowserRouter>
     <Layout>
-      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Dashboard />}>
             <Route path="/users" element={<Users />}>
@@ -23,8 +23,8 @@ const App: React.FC =() => {
             </Route>
           </Route>
         </Routes>
-      </BrowserRouter>
     </Layout>
+    </BrowserRouter>
   );
 }
 
